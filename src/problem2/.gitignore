@@ -1,0 +1,50 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+
+# Build output
+dist/
+
+# Vite cache
+.vite/
+
+# Editor directories and files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# SonarQube
+.sonarqube/
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Jest
+coverage/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+
+# Prettier
+.prettiercache

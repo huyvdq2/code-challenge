@@ -1,0 +1,13 @@
+# Ignore build artifacts
+dist/
+build/
+coverage/
+.vite/
+node_modules/
+
+# Ignore minified and vendor files
+**/*.min.js
+**/vendor/**
+
+# Ignore Docker and config artifacts
+docker/
